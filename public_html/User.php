@@ -2,13 +2,15 @@
 
 class User {
 	public $name;
-	public $email;
+	protected $email;
 
-	public function InfoUser() {
-		$this->name = $name;
-		$this->email = $email;
+	public function __construct($name, $email){
+		$this->name=$name;
+		$this->email=$email;
+	}
+
+	public function info(){
+		echo 'имя:' .$this->name. ' емайл: '. $this->email. '<br>';
 	}
 }
 
-$user = new User('Сергей', 'sergei_kupriynov@mail.ru');
-$user->InfoUser;
