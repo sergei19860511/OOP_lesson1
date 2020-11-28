@@ -1,3 +1,3 @@
 <?php
 
-phpinfo();
+include_once 'User.php';
