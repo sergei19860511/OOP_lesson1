@@ -1,53 +1,28 @@
 <?php
 
-require 'User.php';
-require 'UserBacket.php';
-
-$ivanov = new User('Иван', 'ivan@mail.ru');
-$ivanov->info();
-
-$petrov = new User('Пётр', 'petay@mail.ru');
-$petrov->info();
-
-
-$pupkin = new UserBacket('вася', 'vasy@mail.ru','Aplle', 'Samsung');
-$pupkin->infoGoods();
-
-$serg = new UserBacket('серёга', 'serg@mail.ru', 'Lenovo', 'Lenovo Pover3');
-$serg->infoGoods();
-
-
+require 'Product.php';
+require 'DigitalGoods.php';
+require 'PieceGoods.php';
+require 'WeightGoods.php';
 
 /*
-class A {
-
-    public function foo() {
-    	static $x = 0;
-        echo ++$x;
-    }
-}
-$a1 = new A();
-$a2 = new A();
-$a1->foo();  //Вывод:1 $x-это статическая переменная хранящая значение  
-$a2->foo();  //Вывод:2 внутри метода foo и значение ей задано начальное
-$a1->foo();  //Вывод:3
-$a2->foo();  //Вывод:4
-
-
-class A {
-    public function foo() {
-        static $x = 0;
-        echo ++$x;
-    }
-}
-class B extends A {
-}
-$a1 = new A();
-$b1 = new B();
-$a1->foo(); // Вывод:1 Получается что B наследует тот же метод что в А но уже как бы у него он свой 
-$b1->foo(); // Вывод:1 т.е. для B метод свой, для А метод свой и поэтому получается каждый объект 
-$a1->foo(); // Вывод:2  обращается к методу 2 раза отсюда 1,1 и 2,2
-$b1->foo(); // Вывод:2 
+1. Создать структуру классов ведения товарной номенклатуры.
+а) Есть абстрактный товар.
+б) Есть цифровой товар, штучный физический товар и товар на вес.
+в) У каждого есть метод подсчета финальной стоимости.
+г) У цифрового товара стоимость постоянная – дешевле штучного товара в два раза. 
+		У штучного товара обычная стоимость, у весового – в зависимости от продаваемого количества в килограммах. 
+		У всех формируется в конечном итоге доход с продаж.
+д) Что можно вынести в абстрактный класс, наследование?
+2. *Реализовать паттерн Singleton при помощи traits.
 */
 
-?>
+$prod1 = new DigitalGoods();
+$prod2 = new PieceGoods();
+$prod3 = new WeightGoods();
+
+$prod3->setQty(3.5);
+
+echo "Стоимость цифрового товара {$prod1->getFinalCost()} рублей <br/>";
+echo "Цена штучного товара: " . PieceGoods::$cost . " рублей. Стоимость проданного товара {$prod2->getFinalCost()} рублей <br/>";
+echo "Цена за киллограмм: " . WeightGoods::$cost . " рубля. Стоимость проданного товара {$prod3->getFinalCost()} рублей <br/>";
