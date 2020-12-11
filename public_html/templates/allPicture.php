@@ -19,4 +19,3 @@ $title = 'Все картинки';
 <? endforeach;?>
 </body>
 </html>
-
