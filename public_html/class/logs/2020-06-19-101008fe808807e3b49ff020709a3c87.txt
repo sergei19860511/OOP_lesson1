@@ -1,0 +1,47 @@
+Time : 22:18:17
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT *  FROM user WHERE type=?
+
+Time : 17:46:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:46:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:46:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:46:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:46:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:45:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:45:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:45:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:44:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 17:44:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM user WHERE login=? AND password=?' at line 1
+Raw SQL : SELECT login, password, FROM user WHERE login=? AND password=?
+
+Time : 08:43:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(array )' at line 1
+Raw SQL : SELECT id FROM user WHERE login='sergeikupriyano' (array )

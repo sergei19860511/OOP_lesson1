@@ -1,0 +1,7 @@
+Time : 21:17:31
+SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Raw SQL : UPDATE user SET avatar = ? WHERE id = ?
+
+Time : 21:15:53
+SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Raw SQL : UPDATE user SET avatar = ? WHERE id = ?

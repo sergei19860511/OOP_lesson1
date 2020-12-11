@@ -1,0 +1,63 @@
+Time : 20:11:56
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:11:56
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:10:24
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:07:53
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:07:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:06:07
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:05:07
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:04:38
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 20:02:31
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE email=? OR login=?
+
+Time : 11:29:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE  login=? AND email=?
+
+Time : 11:25:06
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE  login=? AND email=?
+
+Time : 11:24:06
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id FROM user WHERE  login=? AND email=?
+
+Time : 10:40:05
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,message) VALUES(?,?,?)
+
+Time : 10:34:53
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,message) VALUES(?,?,?)
+
+Time : 10:34:07
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,message) VALUES(?,?,?)
+
+Time : 10:33:17
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,message) VALUES(?,?,?)

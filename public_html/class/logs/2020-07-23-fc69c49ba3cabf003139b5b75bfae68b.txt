@@ -1,0 +1,3 @@
+Time : 23:03:54
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : UPDATE user SET password = ? WHERE id = ?

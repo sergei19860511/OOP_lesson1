@@ -1,0 +1,43 @@
+Time : 18:12:46
+SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'id' in MULTI DELETE
+Raw SQL : DELETE id FROM message WHERE id=?
+
+Time : 18:12:34
+SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'id' in MULTI DELETE
+Raw SQL : DELETE id FROM message WHERE id=?
+
+Time : 18:11:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?58' at line 1
+Raw SQL : DELETE id FROM message WHERE id=?58
+
+Time : 18:11:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?58' at line 1
+Raw SQL : DELETE id FROM message WHERE id=?58
+
+Time : 18:10:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?58' at line 1
+Raw SQL : DELETE message FROM message WHERE id=?58
+
+Time : 18:10:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?58' at line 1
+Raw SQL : DELETE message FROM message WHERE id=?58
+
+Time : 18:08:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?удалить' at line 1
+Raw SQL : DELETE message FROM message WHERE id=?удалить
+
+Time : 17:40:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?удалить' at line 1
+Raw SQL : DELETE message FROM message WHERE id=?удалить
+
+Time : 17:40:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?удалить' at line 1
+Raw SQL : DELETE message FROM message WHERE id=?удалить
+
+Time : 17:40:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'удалить' in 'where clause'
+Raw SQL : DELETE message FROM message WHERE id=удалить
+
+Time : 17:40:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'удалить' in 'where clause'
+Raw SQL : DELETE message FROM message WHERE id=удалить
