@@ -1,0 +1,5 @@
+Time : 19:38:01
+SQLSTATE[HY000] [1045] Access denied for user 'u0785329'@'localhost' (using password: YES)
+
+Time : 19:38:00
+SQLSTATE[HY000] [1045] Access denied for user 'u0785329'@'localhost' (using password: YES)

@@ -1,0 +1,11 @@
+Time : 19:37:08
+SQLSTATE[HY000] [2002] Connection timed out
+
+Time : 19:36:38
+SQLSTATE[HY000] [2002] Operation now in progress
+
+Time : 19:36:26
+SQLSTATE[HY000] [2002] Connection timed out
+
+Time : 19:35:57
+SQLSTATE[HY000] [2002] Operation now in progress

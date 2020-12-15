@@ -1,0 +1,11 @@
+Time : 22:07:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'login = ? email = ? password = ? WHERE id = ?' at line 1
+Raw SQL : UPDATE user SET name = ? login = ? email = ? password = ? WHERE id = ?
+
+Time : 22:04:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'login = ? email = ? password = ? WHERE id = ?' at line 1
+Raw SQL : UPDATE user SET name = ? login = ? email = ? password = ? WHERE id = ?
+
+Time : 22:00:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'login=? email=? password=? WHERE id = ?' at line 1
+Raw SQL : UPDATE user SET name = ? login=? email=? password=? WHERE id = ?

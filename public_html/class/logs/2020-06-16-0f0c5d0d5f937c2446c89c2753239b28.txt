@@ -1,0 +1,27 @@
+Time : 15:45:59
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,email,message) VALUES(?,?,?,?)
+
+Time : 15:44:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'surname' in 'field list'
+Raw SQL : INSERT INTO message (name,surname,email,message) VALUES(?,?,?,?)
+
+Time : 15:33:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'surname' in 'field list'
+Raw SQL : INSERT INTO message (name,surname,email,message) VALUES(?,?,?,?)
+
+Time : 15:33:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'surname' in 'field list'
+Raw SQL : INSERT INTO message (name,surname,email,message) VALUES(?,?,?,?)
+
+Time : 15:25:27
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,surname,email,message) VALUES(?,?,?)
+
+Time : 15:25:11
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,surname,email,message) VALUES(?,?,?)
+
+Time : 15:24:45
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO message (name,surname,email,message) VALUES(?,?,?)
