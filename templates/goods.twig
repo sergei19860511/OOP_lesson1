@@ -1,0 +1,16 @@
+{% extends 'layout.twig' %}
+
+{% block title %}MyApp / Catalog{% endblock %}
+{% block content %}
+    <ul>
+    {% for item in goods %}
+        <li><p>{{ item.name_good }} - {{ item.price_good }}</p></li>
+    {% endfor %}
+    </ul>
+
+    <form method="post" action="/Catalog/add">
+        <input type="text" name="name_good">
+        <input type="text" name="price_good">
+        <input type="submit" value= "Добавить">
+    </form>
+{% endblock %}
