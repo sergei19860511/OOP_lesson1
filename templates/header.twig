@@ -1,0 +1,19 @@
+
+	{% if _user %}
+	Привет {{_user.login_user}}
+	<a href="/users/logout">Выйти</a>
+	{% else %}
+	<a href="/users/login">Войти</a>
+{% endif %}
+
+  <div style="float: right; margin-right: 20px">
+		<a href="/basket">Корзина</a> ({{ _basket.count }})
+	</div>
+	<a href="/catalog">Каталог</a>
+	<a href="/">Главная</a>
+	
+	{% if _user.role  %}
+		<a href="/admin">Админка</a>
+	{% endif %}
+
+<hr>
