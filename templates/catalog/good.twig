@@ -1,0 +1,12 @@
+{% extends 'layout.twig' %}
+
+{% block title %}MyApp / Catalog / {{ category.title }} {% endblock %}
+{% block content %}
+    <a href="/catalog">Каталог</a> / <a href="/catalog/{{ category.id }}">{{ category.title }}</a> / {{ good.name_good }}
+    <br><br>
+    <img src="/img/{{ good.img_good }}" style = "max-width:100px"><br>
+    <b>Описание товара:</b> {{ good.desc_good }}<br>
+    <b>Цена:</b> {{ good.price_good }} рублей<br>
+    <br>
+    <a href="?addGood={{ good.id_good }}">добавить в корзину</a>
+{% endblock %}

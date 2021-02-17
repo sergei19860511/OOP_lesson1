@@ -1,0 +1,10 @@
+{% extends 'layout.twig' %}
+
+{% block title %}MyApp / Catalog / {{ category.title }} {% endblock %}
+{% block content %}
+	<a href="/catalog">Каталог</a> / {{ category.title }}<br><br>
+	{% for item in goods %}
+		<li><a href="/catalog/{{category.id}}/{{item.id_good}}">{{item.name_good}}</a><br><br></li>
+	{% endfor %}
+
+{% endblock %}

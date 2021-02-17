@@ -1,0 +1,14 @@
+{% extends 'layout.twig' %}
+
+{% block title %}MyApp / Order{% endblock %}
+{% block content %}
+
+    {% if error %}
+    Ваша карзина пуста
+    <a href="/catalog">Каталог</a>
+    {% else %}
+    Вы успешно создали заказ
+    <a href="/catalog">Каталог</a>
+    {% endif %}
+
+{% endblock %}
